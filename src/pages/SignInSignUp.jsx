@@ -48,6 +48,9 @@ const SignInSignUp = () => {
               <label>confirm password</label>
             </div>
             <button type="submit" className="btn">sign up</button>
+                <div class="google-btn">
+                    <button type="button" class="btn google-signup">Sign up with Google</button>
+                </div>
             <div className="link">
               <p>You already have an account? <span className="signin-link" onClick={handleSignInClick}>sign in</span></p>
             </div>
@@ -70,6 +73,9 @@ const SignInSignUp = () => {
               <a href="#">forgot password?</a>
             </div>
             <button type="submit" className="btn">login</button>
+            <div class="google-btn">
+                    <button type="button" class="btn google-signin">Sign in with Google</button>
+                </div>
             <div className="link">
               <p>Don't have an account? <span className="signup-link" onClick={handleSignUpClick}>sign up</span></p>
             </div>
